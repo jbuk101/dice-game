@@ -22,9 +22,9 @@ function rollDice() {
 
     // Update title
     if (randomNumber1 > randomNumber2) {
-      title.textContent = "🚩 Player 1 Wins!";
+      title.textContent = "Player 1 Wins!";
     } else if (randomNumber2 > randomNumber1) {
-      title.textContent = "Player 2 Wins! 🚩";
+      title.textContent = "Player 2 Wins!";
     } else {
       title.textContent = "It's a Draw!";
     }
